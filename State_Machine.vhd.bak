@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity State_Machine is port
+(
+	clk		: in std_logic;
+	reset		: in std_logic;
+	input1	: in std_logic;
+	input2	: in std_logic;
+	input3	: in std_logic;
+	
+	output1	: out std_logic;
+	output2	: out std_logic;
+ );
+end entity;
+
